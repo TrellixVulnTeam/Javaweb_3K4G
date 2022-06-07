@@ -1,0 +1,108 @@
+@charset "UTF-8";
+/* Nav */
+.logo {
+  width: 9vw; }
+
+nav {
+  background-color: #070B33;
+  display: flex;
+  justify-items: center;
+  border-top: 2px solid black;
+  border-bottom: 2px solid black; }
+
+nav a {
+  text-decoration: none;
+  color: black; }
+
+.itemsNav {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  width: 90%; }
+
+.burbujaNav {
+  padding: 1rem;
+  box-shadow: 10px 10px 10px #4f573c;
+  border-radius: 100%;
+  background-color: #d4bb2c;
+  padding: 1%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: larger;
+  border: 1px solid black; }
+
+* {
+  padding: 0;
+  margin: 0;
+  list-style: none; }
+
+body {
+  width: 100%;
+  display: flex;
+  flex-direction: column; }
+
+/* Main */
+main {
+  background-color: #ffdd1e;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  width: fit-content;
+  justify-self: center;
+  padding: 1rem; }
+
+.titulo {
+  font-style: normal;
+  font-size: 40px; }
+
+/* Explicación */
+.contenedorExplicacionInicio {
+  width: 100%;
+  display: flex;
+  justify-items: center; }
+
+.padreExplicacion {
+  box-shadow: 10px 10px 10px #4f573c;
+  border-radius: 15px;
+  background-color: darkgrey;
+  border: 2px solid black; }
+
+/* Informaciones */
+.informacionesInicio {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  border: 2px solid black;
+  border-radius: 15px;
+  background-color: darkgray;
+  box-shadow: 10px 10px 10px #4f573c;
+  margin-top: 1%; }
+
+/* Ayuda */
+.ayuda {
+  display: flex;
+  flex-direction: row-reverse;
+  background-color: darkgray; }
+
+.botonAyuda {
+  margin-right: 1%; }
+
+/* Random y Gracioso */
+.contenedorRyG {
+  background-color: #ffdd1e;
+  display: flex;
+  justify-content: center;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  width: 100%; }
+
+.textoRyG {
+  border-radius: 10px;
+  box-sizing: content-box;
+  padding: 1.5%;
+  box-shadow: 10px 10px 10px #4f573c;
+  background-color: darkgrey;
+  margin: 0% 1rem 0% 1rem;
+  width: 20%;
+  border: 2px solid black; }
