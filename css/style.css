@@ -4,15 +4,15 @@
   width: 9vw; }
 
 nav {
-  background-color: #070B33;
   display: flex;
-  justify-items: center;
+  justify-content: center;
+  background-color: #005187;
   border-top: 2px solid black;
-  border-bottom: 2px solid black; }
-
-nav a {
-  text-decoration: none;
-  color: black; }
+  border-bottom: 2px solid black;
+  padding: 0.5%; }
+  nav a {
+    text-decoration: none;
+    color: black; }
 
 .itemsNav {
   list-style: none;
@@ -21,10 +21,8 @@ nav a {
   width: 90%; }
 
 .burbujaNav {
-  padding: 1rem;
-  box-shadow: 10px 10px 10px #4f573c;
   border-radius: 100%;
-  background-color: #d4bb2c;
+  background-color: white;
   padding: 1%;
   display: flex;
   align-items: center;
@@ -44,7 +42,7 @@ body {
 
 /* Main */
 main {
-  background-color: #ffdd1e;
+  background-color: #98c0f6;
   display: flex;
   flex-direction: column;
   text-align: center;

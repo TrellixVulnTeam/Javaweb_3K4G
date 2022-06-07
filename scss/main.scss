@@ -1,6 +1,7 @@
 @import "./variables/variables";
 @import "sass2/extend";
 @import "sass2/mixin";
+@import "./variables/variables";
 @import "./partials/nav";
 
 *{
@@ -9,14 +10,13 @@
     list-style: none;
 }
 body{
-    width: 100%;
-    display: flex;
-    flex-direction: column;
+    width: $width1;
+    @include columna;
 }
 
 /* Main */
 main{
-    background-color: rgb(255, 221, 30);
+    background-color: $fondo;
     display: flex;
     flex-direction: column;
     text-align: center;
