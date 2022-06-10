@@ -6,7 +6,6 @@
 @import "./partials/h1";
 @import "./partials/footer";
 @import "./partials/cohadrajot";
-@import "./partials/JT";
 
 *{
     padding: 0%;
@@ -23,7 +22,5 @@ main{
     @include main;
     padding: $paddinggral;
     background-color: $fondo;
-}
-.palabritas{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }

@@ -30,6 +30,7 @@
 
 @mixin main-cohadrajot {
     display: flex;
+    justify-content: center;
     flex-direction: row;
     text-align: center;
 }

@@ -6,6 +6,7 @@
 
 .mainCohadrajot{
     @include main-cohadrajot;
+    margin: $margingral/2;
 }
 
 .fotos1 {
@@ -15,6 +16,7 @@
     border: $borde3;
     border-radius: 10px;
     padding: 10px;
+    margin: $margingral/2 0px;
 }
 .fotos2 {
     width: 20%;
@@ -34,6 +36,9 @@
     border: $borde3;
     border-radius: 5px;
 }
+.verticales{
+    height: 19vw;
+}
 
 /* Peula de la semana */
 
@@ -52,7 +57,8 @@
 .h2PeulaSemana{
     @include start;
     font-size: 2vw;
-    margin-bottom: $margingral;
+    margin-bottom: $margingral*2;
+    padding: $paddinggral;
 }
 .peulaYMateriales{
     @include centrar;
@@ -67,6 +73,7 @@
 }
 .h3Cohadraja{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: $paddinggral;
 }
 .resumenImg{
     width: $width1;
@@ -77,23 +84,26 @@
 .materialesPeula{
     border-left: $borde2;
     padding: $paddinggral;
-    width: $width7;
+    width: $width5;
 }
-.listaC{
-    list-style-type:circle;
+ul{
     align-items: flex-start;
+    .listaC{
+        list-style-type:circle;
+        align-items: flex-start;
     }
+}
 
 /* Majane */
 
 .padreMajane{
     @include centrar;
     width: $width1;
-    margin: $margingral 0px;
+    margin: $margingral*3 0px $margingral 0px;
 }
 .majane{
     @include centrar-columna;
-    width: $width3;
+    width: $width2;
     padding: $paddinggral;
     background-color: $color3;
     border: $borde1;
@@ -108,13 +118,17 @@
     .barraProgreso {
         width: $width1;
     }
+    .progress{
+        margin-bottom: $margingral*2;
+    }
     .indicadores {
     @include evenly-row;
     div {
         padding: $paddinggral;
         background-color: $color1;
+        border-radius: 5px;
         height: 3vw;
-        width: 3vw;
+        width: fit-content;
         text-align: center;
         }
     }
