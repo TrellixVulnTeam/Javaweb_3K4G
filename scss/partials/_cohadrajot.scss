@@ -1,0 +1,121 @@
+@import "../variables/variables";
+@import "../sass2/extend";
+@import "../sass2/mixin";
+
+/* Formato gral */
+
+.mainCohadrajot{
+    @include main-cohadrajot;
+}
+
+.fotos1 {
+    width: 20%;
+    @include evenly;
+    background-color: $color1;
+    border: $borde3;
+    border-radius: 10px;
+    padding: 10px;
+}
+.fotos2 {
+    width: 20%;
+    @include evenly;
+    background-color: $color1;
+    border: $borde3;
+    border-radius: 10px;
+    padding: 10px;
+}
+.marcoFoto{
+    @include dato;
+    height: 14vw;
+    padding: $paddinggral;
+}
+.chImg{
+    height: 13vw;
+    border: $borde3;
+    border-radius: 5px;
+}
+
+/* Peula de la semana */
+
+.padrePeulaSemana{
+    width: $width1;
+    @include centrar;
+}
+.peulaSemana{
+    width: $width3+10;
+    text-align: center;
+    background-color: $color3;
+    padding: $paddinggral;
+    border: $borde1;
+    border-radius: 10px;
+}
+.h2PeulaSemana{
+    @include start;
+    font-size: 2vw;
+    margin-bottom: $margingral;
+}
+.peulaYMateriales{
+    @include centrar;
+    border: $borde2;
+    border-radius: 5px;
+    margin: $margingral;
+}
+.resumenPeula{
+    @include start;
+    width: $width3;
+    padding: $paddinggral;
+}
+.h3Cohadraja{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.resumenImg{
+    width: $width1;
+}
+.imgResumen{
+    width: $width2;
+}
+.materialesPeula{
+    border-left: $borde2;
+    padding: $paddinggral;
+    width: $width7;
+}
+.listaC{
+    list-style-type:circle;
+    align-items: flex-start;
+    }
+
+/* Majane */
+
+.padreMajane{
+    @include centrar;
+    width: $width1;
+    margin: $margingral 0px;
+}
+.majane{
+    @include centrar-columna;
+    width: $width3;
+    padding: $paddinggral;
+    background-color: $color3;
+    border: $borde1;
+    border-radius: 10px;
+}
+.h2Majane{
+    font-size: 2vw;
+    margin-bottom: $margingral;
+}
+.progresoIndicadores{
+    @include columna;
+    .barraProgreso {
+        width: $width1;
+    }
+    .indicadores {
+    @include evenly-row;
+    div {
+        padding: $paddinggral;
+        background-color: $color1;
+        height: 3vw;
+        width: 3vw;
+        text-align: center;
+        }
+    }
+}

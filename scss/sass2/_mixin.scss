@@ -5,7 +5,88 @@
     justify-content: center;
 }
 
+@mixin centrar-columna {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
 @mixin columna {
     display: flex;
     flex-direction: column;
+}
+
+@mixin fila {
+    display: flex;
+    flex-direction: row;
+}
+
+@mixin main {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-self: center;
+}
+
+@mixin main-cohadrajot {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+}
+
+@mixin start {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+@mixin nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+@mixin infos {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+@mixin reco {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+@mixin div-dato {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@mixin dato {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@mixin footer {
+    display: flex;
+    justify-content: flex-start;
+}
+
+@mixin evenly {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+@mixin evenly-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+@mixin align {
+    display: flex;
+    align-items: center;
 }

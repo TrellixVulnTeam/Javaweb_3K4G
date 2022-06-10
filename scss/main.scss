@@ -1,12 +1,16 @@
 @import "./variables/variables";
 @import "sass2/extend";
 @import "sass2/mixin";
-@import "./variables/variables";
 @import "./partials/nav";
+@import "./partials/index";
+@import "./partials/h1";
+@import "./partials/footer";
+@import "./partials/cohadrajot";
+@import "./partials/JT";
 
 *{
-    padding: 0;
-    margin: 0;
+    padding: 0%;
+    margin: 0%;
     list-style: none;
 }
 body{
@@ -16,71 +20,10 @@ body{
 
 /* Main */
 main{
+    @include main;
+    padding: $paddinggral;
     background-color: $fondo;
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    width: fit-content;
-    justify-self: center;
-    padding: 1rem;
 }
-.titulo{
-    font-style: normal;
-    font-size: 40px;
-}
-
-/* Explicación */
-.contenedorExplicacionInicio{
-    width: 100%;
-    display: flex;
-    justify-items: center;
-}
-.padreExplicacion{
-    box-shadow: 10px 10px 10px rgb(79, 87, 60);
-    border-radius: 15px;
-    background-color: darkgrey;
-    border: 2px solid black;
-}
-
-/* Informaciones */
-.informacionesInicio{
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    border: 2px solid black;
-    border-radius: 15px;
-    background-color: darkgray;
-    box-shadow: 10px 10px 10px rgb(79, 87, 60) ;
-    margin-top: 1%;
-}
-
-/* Ayuda */
-.ayuda{
-    display: flex;
-    flex-direction: row-reverse;
-    background-color: darkgray;
-}
-.botonAyuda{
-    margin-right: 1%;
-}
-
-/* Random y Gracioso */
-
-.contenedorRyG{
-    background-color: rgb(255, 221, 30);
-    display: flex;
-    justify-content: center;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-    width: 100%;
-}
-.textoRyG{
-    border-radius: 10px;
-    box-sizing: content-box;
-    padding: 1.5%;
-    box-shadow: 10px 10px 10px rgb(79, 87, 60) ;
-    background-color: darkgrey;
-    margin: 0% 1rem 0% 1rem;
-    width: 20%;
-    border: 2px solid black;
+.palabritas{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }

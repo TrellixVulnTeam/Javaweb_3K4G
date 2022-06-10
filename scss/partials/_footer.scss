@@ -1,0 +1,25 @@
+@import "../variables/variables";
+@import "../sass2/extend";
+@import "../sass2/mixin";
+
+footer{
+    background-color: $colornav;
+    @include footer;
+    padding: $paddinggral;
+    border-top: $borde2;
+    a{
+        padding: $paddinggral;
+        background-color: violet;
+        text-decoration: none;
+        color: white;
+        border: 1px solid white;
+        border-radius: 5px;
+    }
+}
+
+.divFooter{
+    margin: 0px $margingral;
+    padding: $paddinggral/3;
+    background-color: $color3;
+    border-radius: 10px;
+}

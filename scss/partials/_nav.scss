@@ -1,4 +1,6 @@
 @import "../variables/variables";
+@import "../sass2/extend";
+@import "../sass2/mixin";
 
 /* Nav */
 .logo{
@@ -7,27 +9,52 @@
 nav{
     @include centrar;
     background-color: $colornav;
-    border-top:2px solid black;
-    border-bottom:2px solid black;
+    border-top: $borde2;
+    border-bottom: $borde2;
     padding: $paddinggral/2;
     a{
         text-decoration: none;
         color: black;
     }
 }
-.itemsNav{
+.navegador{
+    @include nav;
     list-style: none;
-    display: flex;
-    justify-content: space-around;
-    width: 90%;
+    width: $width2;
 }
-.burbujaNav{
-    border-radius:100%;
-    background-color: white;
-    padding: 1%;
+.cos{
+    width: 7vw;
+    border: $borde2;
+    border-radius: 7px;
+}
+
+/* Ayuda */
+.ayuda{
     display: flex;
-    align-items: center;
+    flex-direction: row-reverse;
+    background-color: $color2;
+}
+.botonAyuda{
+    margin-right: 1%;
+}
+
+/* Random y Gracioso */
+
+.contenedorRyG{
+    background-color: rgb(255, 221, 30);
+    display: flex;
     justify-content: center;
-    font-size: larger;
-    border: 1px solid black;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    width: 100%;
+}
+.textoRyG{
+    border-radius: 10px;
+    box-sizing: content-box;
+    padding: 1.5%;
+    box-shadow: 10px 10px 10px rgb(79, 87, 60) ;
+    background-color: darkgrey;
+    margin: 0% 1rem 0% 1rem;
+    width: 20%;
+    border: 2px solid black;
 }

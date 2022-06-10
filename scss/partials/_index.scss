@@ -1,0 +1,151 @@
+@import "../variables/variables";
+@import "../sass2/extend";
+@import "../sass2/mixin";
+
+/* Explicación */
+.padreDivExplicacion{
+    @include centrar;
+    width: $width1;
+    margin-bottom: $margingral*2;
+}
+.divExplicacion{
+    @include start;
+    width: $width2;
+    box-shadow: 8px 8px 8px $color1;
+    border-radius: 15px;
+    background-color: $color2;
+    border: $borde1;
+    padding: $paddinggral;
+}
+.h2Explicacion{
+    font-size: 2vw;
+    margin-bottom: $margingral;
+}
+.explicacionInicio{
+    margin-bottom: $margingral;
+}
+.padreRecomendaciones{
+    background-color: $color3;
+    box-shadow: 5px 5px 5px $color4;
+    border: $borde2;
+    border-radius: 5px;
+    padding: 0px $paddinggral $paddinggral $paddinggral;
+    width: 95%;
+}
+.recomendaciones{
+    @include reco;
+    line-height: 2vw;
+}
+
+/* Javatweets */
+.padrejavatweets{
+    @include centrar;
+    width: $width1;
+    margin-bottom: $margingral;
+}
+.javatweets{
+    @include columna;
+    width: $width2;
+    box-shadow: 8px 8px 8px $color1;
+    border-radius: 15px;
+    background-color: $color2;
+    border: $borde1;
+    padding: $paddinggral;
+}
+.cuatrotweets{
+    @include fila;
+}
+.h5Tweet{
+    font-weight: 800;
+    font-size: 1.5vw;
+    margin-bottom: $margingral*2;
+}
+.tweet{
+    box-shadow: 5px 5px 5px $color4;
+    border-radius: 15px;
+    background-color: $color3;
+    border: $borde1;
+    margin: $margingral;
+    padding: $paddinggral;
+    width: 18vw;
+    height: 10vw;
+}
+
+/* Informaciones */
+.infosPadre{
+    @include centrar;
+    margin-bottom: $margingral*2;
+}
+.h2Infos{
+    font-size: 2vw;
+    margin-bottom: $margingral;
+}
+.infos{
+    @include centrar-columna;
+    width: $width2;
+    border: $borde1;
+    border-radius: 15px;
+    background-color: $color2;
+    box-shadow: 8px 8px 8px $color1;
+    padding: $paddinggral;
+    margin-top: $margingral;
+}
+.padreInfosExtra{
+    @include centrar;
+    width: $width1;
+}
+.infosExtra{
+    @include infos;
+    background-color: $color3;
+    box-shadow: 5px 5px 5px $color4;
+    width: $width5;
+    border: $borde1;
+    border-radius: 10px;
+    padding: $paddinggral;
+    margin: $margingral;
+}
+.infosRow{
+    display: flex;
+    flex-direction: row;
+}
+.infoT{
+    font-weight: bold;
+    margin: $margingral 0px;
+}
+.infosFoto{
+    @include centrar;
+}
+.cronomajane{
+    width: $width4;
+    box-shadow: 5px 5px 5px $color4;
+}
+
+/* Dato del día */
+
+.padreDivDato{
+    @include centrar;
+    width: $width1;
+    margin-bottom: $margingral;
+}
+.divDato{
+    @include div-dato;
+    width: $width6;
+    box-shadow: 8px 8px 8px $color1;
+    border-radius: 15px;
+    background-color: $color2;
+    border: $borde1;
+    padding: $paddinggral;
+}
+.h2Dato{
+    font-size: 2vw;
+    margin-bottom: $margingral;
+}
+.dato{
+    @include dato;
+    background-color: $color3;
+    box-shadow: 5px 5px 5px $color4;
+    border: $borde2;
+    border-radius: 10px;
+    width: $width5;
+    height: 5vw;
+}
