@@ -133,3 +133,32 @@ ul{
         }
     }
 }
+
+/* Ayuda */
+
+.padreDivAyuda{
+    @include centrar;
+    width: $width1;
+    margin: $margingral*2 0px $margingral 0px;
+}
+.divAyuda{
+    width: $width2;
+    padding: $paddinggral;
+    background-color: $color3;
+    border: $borde1;
+    border-radius: 10px;
+}
+.h3Ayuda{
+    font-size: 1.5vw;
+}
+.tyBoton{
+    display: flex;
+    flex-direction: row;
+    margin: $margingral;
+}
+.pAyuda{
+    font-style: italic;
+}
+.ayudas{
+    margin: 0px $margingral*2;
+}

@@ -2,6 +2,19 @@
 @import "../sass2/extend";
 @import "../sass2/mixin";
 
+/* Carrusel */
+.carousel{
+    @include fila2;
+}
+.fotintro{
+    border-radius: 10px;
+    margin-bottom: $margingral*3;
+    img{
+        border: $borde4;
+        border-radius: 10px;
+    }
+}
+
 /* Explicación */
 .padreDivExplicacion{
     @include centrar;
@@ -146,6 +159,6 @@
     box-shadow: 5px 5px 5px $color4;
     border: $borde2;
     border-radius: 10px;
-    width: $width5;
+    width: $width3;
     height: 5vw;
 }

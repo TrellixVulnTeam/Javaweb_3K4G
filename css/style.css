@@ -54,6 +54,19 @@ nav {
   width: 20%;
   border: 2px solid black; }
 
+/* Carrusel */
+.carousel {
+  display: flex;
+  justify-content: center;
+  flex-direction: row; }
+
+.fotintro {
+  border-radius: 10px;
+  margin-bottom: 3%; }
+  .fotintro img {
+    border: 5px solid black;
+    border-radius: 10px; }
+
 /* Explicación */
 .padreDivExplicacion {
   display: flex;
@@ -214,7 +227,7 @@ nav {
   box-shadow: 5px 5px 5px #ca7821;
   border: 2px solid black;
   border-radius: 10px;
-  width: 50%;
+  width: 70%;
   height: 5vw; }
 
 .elH1 {
@@ -385,6 +398,38 @@ ul {
       width: fit-content;
       text-align: center; }
 
+/* Ayuda */
+.padreDivAyuda {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin: 2% 0px 1% 0px; }
+
+.divAyuda {
+  width: 90%;
+  padding: 1%;
+  background-color: #ffe58b;
+  border: 3px solid black;
+  border-radius: 10px; }
+
+.h3Ayuda {
+  font-size: 1.5vw; }
+
+.tyBoton {
+  display: flex;
+  flex-direction: row;
+  margin: 1%; }
+
+.pAyuda {
+  font-style: italic; }
+
+.ayudas {
+  margin: 0px 2%; }
+
+.h2Crono {
+  font-size: 2vw;
+  margin-bottom: 1%; }
+
 * {
   padding: 0%;
   margin: 0%;
@@ -400,7 +445,7 @@ main {
   display: flex;
   flex-direction: column;
   text-align: center;
-  justify-self: center;
+  justify-content: center;
   padding: 1%;
   background-color: #ffffab;
   font-family: Verdana, Geneva, Tahoma, sans-serif; }
