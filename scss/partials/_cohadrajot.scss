@@ -109,10 +109,6 @@ ul{
     border: $borde1;
     border-radius: 10px;
 }
-.h2Majane{
-    font-size: 2vw;
-    margin-bottom: $margingral;
-}
 .progresoIndicadores{
     @include columna;
     .barraProgreso {

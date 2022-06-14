@@ -30,10 +30,6 @@
     border: $borde1;
     padding: $paddinggral;
 }
-.h2Explicacion{
-    font-size: 2vw;
-    margin-bottom: $margingral;
-}
 .explicacionInicio{
     margin-bottom: $margingral;
 }
@@ -43,7 +39,7 @@
     border: $borde2;
     border-radius: 5px;
     padding: 0px $paddinggral $paddinggral $paddinggral;
-    width: 95%;
+    width: 100%;
 }
 .recomendaciones{
     @include reco;
@@ -57,7 +53,7 @@
     margin-bottom: $margingral;
 }
 .javatweets{
-    @include columna;
+    @include tweet;
     width: $width2;
     box-shadow: 8px 8px 8px $color1;
     border-radius: 15px;
@@ -78,9 +74,9 @@
     border-radius: 15px;
     background-color: $color3;
     border: $borde1;
-    margin: $margingral;
+    margin: $margingral $margingral*2;
     padding: $paddinggral;
-    width: 18vw;
+    width: 22vw;
     height: 10vw;
 }
 
@@ -88,10 +84,6 @@
 .infosPadre{
     @include centrar;
     margin-bottom: $margingral*2;
-}
-.h2Infos{
-    font-size: 2vw;
-    margin-bottom: $margingral;
 }
 .infos{
     @include centrar-columna;
@@ -106,6 +98,7 @@
 .padreInfosExtra{
     @include centrar;
     width: $width1;
+    margin-bottom: $margingral*2;
 }
 .infosExtra{
     @include infos;
@@ -127,6 +120,7 @@
 }
 .infosFoto{
     @include centrar;
+    margin-bottom: $margingral;
 }
 .cronomajane{
     width: $width4;
@@ -149,10 +143,6 @@
     border: $borde1;
     padding: $paddinggral;
 }
-.h2Dato{
-    font-size: 2vw;
-    margin-bottom: $margingral;
-}
 .dato{
     @include dato;
     background-color: $color3;
@@ -161,4 +151,5 @@
     border-radius: 10px;
     width: $width3;
     height: 5vw;
+    margin-top: $margingral;
 }

@@ -85,10 +85,6 @@ nav {
   border: 3px solid black;
   padding: 1%; }
 
-.h2Explicacion {
-  font-size: 2vw;
-  margin-bottom: 1%; }
-
 .explicacionInicio {
   margin-bottom: 1%; }
 
@@ -98,7 +94,7 @@ nav {
   border: 2px solid black;
   border-radius: 5px;
   padding: 0px 1% 1% 1%;
-  width: 95%; }
+  width: 100%; }
 
 .recomendaciones {
   display: flex;
@@ -116,6 +112,7 @@ nav {
 .javatweets {
   display: flex;
   flex-direction: column;
+  align-items: center;
   width: 90%;
   box-shadow: 8px 8px 8px #ffb14b;
   border-radius: 15px;
@@ -137,9 +134,9 @@ nav {
   border-radius: 15px;
   background-color: #ffe58b;
   border: 3px solid black;
-  margin: 1%;
+  margin: 1% 2%;
   padding: 1%;
-  width: 18vw;
+  width: 22vw;
   height: 10vw; }
 
 /* Informaciones */
@@ -147,10 +144,6 @@ nav {
   display: flex;
   justify-content: center;
   margin-bottom: 2%; }
-
-.h2Infos {
-  font-size: 2vw;
-  margin-bottom: 1%; }
 
 .infos {
   display: flex;
@@ -167,7 +160,8 @@ nav {
 .padreInfosExtra {
   display: flex;
   justify-content: center;
-  width: 100%; }
+  width: 100%;
+  margin-bottom: 2%; }
 
 .infosExtra {
   display: flex;
@@ -191,7 +185,8 @@ nav {
 
 .infosFoto {
   display: flex;
-  justify-content: center; }
+  justify-content: center;
+  margin-bottom: 1%; }
 
 .cronomajane {
   width: 60%;
@@ -215,10 +210,6 @@ nav {
   border: 3px solid black;
   padding: 1%; }
 
-.h2Dato {
-  font-size: 2vw;
-  margin-bottom: 1%; }
-
 .dato {
   display: flex;
   justify-content: center;
@@ -228,7 +219,8 @@ nav {
   border: 2px solid black;
   border-radius: 10px;
   width: 70%;
-  height: 5vw; }
+  height: 5vw;
+  margin-top: 1%; }
 
 .elH1 {
   font-family: "Racing Sans One", cursive;
@@ -375,10 +367,6 @@ ul {
   border: 3px solid black;
   border-radius: 10px; }
 
-.h2Majane {
-  font-size: 2vw;
-  margin-bottom: 1%; }
-
 .progresoIndicadores {
   display: flex;
   flex-direction: column; }
@@ -426,9 +414,118 @@ ul {
 .ayudas {
   margin: 0px 2%; }
 
-.h2Crono {
-  font-size: 2vw;
-  margin-bottom: 1%; }
+/* Formato Grid */
+.parent {
+  display: grid;
+  grid-template-columns: repeat(9, 1fr);
+  grid-template-rows: repeat(7, 1fr);
+  grid-column-gap: 10px;
+  grid-row-gap: 10px; }
+  .parent .div1 {
+    grid-area: 2 / 1 / 3 / 2; }
+  .parent .div2 {
+    grid-area: 2 / 2 / 3 / 3; }
+  .parent .div3 {
+    grid-area: 2 / 3 / 3 / 4; }
+  .parent .div4 {
+    grid-area: 2 / 4 / 3 / 5; }
+  .parent .div5 {
+    grid-area: 3 / 1 / 4 / 2; }
+  .parent .div6 {
+    grid-area: 3 / 2 / 4 / 3; }
+  .parent .div7 {
+    grid-area: 3 / 3 / 4 / 4; }
+  .parent .div8 {
+    grid-area: 3 / 4 / 4 / 5; }
+  .parent .div9 {
+    grid-area: 4 / 1 / 5 / 2; }
+  .parent .div10 {
+    grid-area: 4 / 2 / 5 / 3; }
+  .parent .div11 {
+    grid-area: 4 / 3 / 5 / 4; }
+  .parent .div12 {
+    grid-area: 4 / 4 / 5 / 5; }
+  .parent .div13 {
+    grid-area: 5 / 1 / 6 / 2; }
+  .parent .div14 {
+    grid-area: 5 / 2 / 6 / 3; }
+  .parent .div15 {
+    grid-area: 5 / 3 / 6 / 4; }
+  .parent .div16 {
+    grid-area: 5 / 4 / 6 / 5; }
+  .parent .div17 {
+    grid-area: 6 / 1 / 7 / 2; }
+  .parent .div18 {
+    grid-area: 6 / 2 / 7 / 3; }
+  .parent .div19 {
+    grid-area: 6 / 3 / 7 / 4; }
+  .parent .div20 {
+    grid-area: 6 / 4 / 7 / 5; }
+  .parent .div21 {
+    grid-area: 7 / 1 / 8 / 2; }
+  .parent .div22 {
+    grid-area: 7 / 2 / 8 / 3; }
+  .parent .div23 {
+    grid-area: 7 / 3 / 8 / 4; }
+  .parent .div24 {
+    grid-area: 7 / 4 / 8 / 5; }
+  .parent .div25 {
+    grid-area: 2 / 6 / 3 / 7; }
+  .parent .div26 {
+    grid-area: 2 / 7 / 3 / 8; }
+  .parent .div27 {
+    grid-area: 2 / 8 / 3 / 9; }
+  .parent .div28 {
+    grid-area: 2 / 9 / 3 / 10; }
+  .parent .div29 {
+    grid-area: 3 / 6 / 4 / 7; }
+  .parent .div30 {
+    grid-area: 3 / 7 / 4 / 8; }
+  .parent .div31 {
+    grid-area: 3 / 8 / 4 / 9; }
+  .parent .div32 {
+    grid-area: 3 / 9 / 4 / 10; }
+  .parent .div33 {
+    grid-area: 4 / 6 / 5 / 7; }
+  .parent .div34 {
+    grid-area: 4 / 7 / 5 / 8; }
+  .parent .div35 {
+    grid-area: 4 / 8 / 5 / 9; }
+  .parent .div36 {
+    grid-area: 4 / 9 / 5 / 10; }
+  .parent .div37 {
+    grid-area: 5 / 6 / 6 / 7; }
+  .parent .div38 {
+    grid-area: 5 / 7 / 6 / 8; }
+  .parent .div39 {
+    grid-area: 5 / 8 / 6 / 9; }
+  .parent .div40 {
+    grid-area: 5 / 9 / 6 / 10; }
+  .parent .div41 {
+    grid-area: 6 / 6 / 7 / 7; }
+  .parent .div42 {
+    grid-area: 6 / 7 / 7 / 8; }
+  .parent .div43 {
+    grid-area: 6 / 8 / 7 / 9; }
+  .parent .div44 {
+    grid-area: 6 / 9 / 7 / 10; }
+  .parent .div45 {
+    grid-area: 7 / 6 / 8 / 7; }
+  .parent .div46 {
+    grid-area: 7 / 7 / 8 / 8; }
+  .parent .div47 {
+    grid-area: 7 / 8 / 8 / 9; }
+  .parent .div48 {
+    grid-area: 7 / 9 / 8 / 10; }
+
+/* Diseño Individual */
+.divGrid {
+  background-color: #ffcb6b;
+  border: 2px solid black;
+  border-radius: 10px; }
+
+.divGridA .imgGrid {
+  width: 30%; }
 
 * {
   padding: 0%;
@@ -449,3 +546,7 @@ main {
   padding: 1%;
   background-color: #ffffab;
   font-family: Verdana, Geneva, Tahoma, sans-serif; }
+
+.h2Gral {
+  font-size: 2.5vw;
+  margin-bottom: 1%; }

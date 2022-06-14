@@ -7,6 +7,7 @@
 @import "./partials/footer";
 @import "./partials/cohadrajot";
 @import "./partials/java";
+@import "./partials/grid";
 
 *{
     padding: 0%;
@@ -24,4 +25,8 @@ main{
     padding: $paddinggral;
     background-color: $fondo;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.h2Gral{
+    font-size: 2.5vw;
+    margin-bottom: $margingral;
 }
