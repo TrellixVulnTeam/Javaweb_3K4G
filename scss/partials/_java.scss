@@ -1,3 +1,11 @@
 @import "../variables/variables";
 @import "../sass2/extend";
 @import "../sass2/mixin";
+
+.divInfos{
+    @include tweet;
+}
+.h2Java{
+    font-size: 2.5vw;
+    margin: $margingral*2 0px $margingral*3 0px;
+}
