@@ -726,7 +726,7 @@ ul {
   background-image: linear-gradient(to right, #AA50FF, #672AFF, #5325FF); }
 
 .paginaAyuda {
-  background-image: url(/fotitos/galaxia.jpeg);
+  background-image: url(../fotitos/galaxia.jpeg);
   background-size: cover; }
 
 .h1Ayuda {
