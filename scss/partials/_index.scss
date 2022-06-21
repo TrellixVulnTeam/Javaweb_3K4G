@@ -122,6 +122,9 @@
     font-weight: bold;
     margin: $margingral 0px;
 }
+.info{
+    @include una-info;
+}
 .infosFoto{
     @include centrar;
     margin-bottom: $margingral;

@@ -78,22 +78,46 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     padding: $paddinggral;
 }
-.resumenImg{
-    width: $width1;
+.resumenPeu{
+    @include columna;
 }
-.imgResumen{
-    width: $width2;
+.peu{
+    @include start;
+    background-color: rgba($color: #FF8C6F, $alpha: 0.8);
+    border-radius: 10px;
+    padding: $paddinggral $paddinggral*3;
+    margin: $margingral;
+}
+.h4Peu{
+    padding: $paddinggral;
+    font-style: italic;
+}
+.pPeu{
+    text-align: left;
+}
+.ulJuegos{
+    border-radius: 10px;
+    padding-top: $paddinggral*2;
+    padding-bottom: $paddinggral*2;
+    .listaP{
+        list-style-type: circle;
+        text-align: start;
+    }
 }
 .materialesPeula{
     border-left: $borde2;
     padding: $paddinggral;
     width: $width5;
 }
-ul{
-    align-items: flex-start;
+.ulPeu{
+    background-color: rgba($color: #FF8C6F, $alpha: 0.8);
+    border-radius: 10px;
+    padding-top: $paddinggral*2;
+    padding-bottom: $paddinggral*2;
     .listaC{
-        list-style-type:circle;
-        align-items: flex-start;
+        list-style-type: circle;
+        text-align: start;
+        font-size: 1vw;
     }
 }
 
@@ -170,3 +194,7 @@ ul{
         }
     }
 }
+
+/* Hilos individuales */
+
+/* Gral */

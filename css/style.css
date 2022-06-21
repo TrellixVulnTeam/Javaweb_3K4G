@@ -187,6 +187,10 @@ nav {
   font-weight: bold;
   margin: 1% 0px; }
 
+.info {
+  display: flex;
+  text-align: start; }
+
 .infosFoto {
   display: flex;
   justify-content: center;
@@ -340,22 +344,48 @@ footer {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   padding: 1%; }
 
-.resumenImg {
-  width: 100%; }
+.resumenPeu {
+  display: flex;
+  flex-direction: column; }
 
-.imgResumen {
-  width: 90%; }
+.peu {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  background-color: rgba(255, 140, 111, 0.8);
+  border-radius: 10px;
+  padding: 1% 3%;
+  margin: 1%; }
+
+.h4Peu {
+  padding: 1%;
+  font-style: italic; }
+
+.pPeu {
+  text-align: left; }
+
+.ulJuegos {
+  border-radius: 10px;
+  padding-top: 2%;
+  padding-bottom: 2%; }
+  .ulJuegos .listaP {
+    list-style-type: circle;
+    text-align: start; }
 
 .materialesPeula {
   border-left: 2px solid black;
   padding: 1%;
   width: 50%; }
 
-ul {
-  align-items: flex-start; }
-  ul .listaC {
+.ulPeu {
+  background-color: rgba(255, 140, 111, 0.8);
+  border-radius: 10px;
+  padding-top: 2%;
+  padding-bottom: 2%; }
+  .ulPeu .listaC {
     list-style-type: circle;
-    align-items: flex-start; }
+    text-align: start;
+    font-size: 1vw; }
 
 /* Majane */
 .padreMajane {
@@ -428,6 +458,8 @@ ul {
     .ayudas a:hover {
       color: red; }
 
+/* Hilos individuales */
+/* Gral */
 /* Javacrono */
 .divInfos {
   display: flex;
@@ -543,7 +575,8 @@ ul {
   display: flex;
   justify-content: center;
   flex-direction: column;
-  text-align: center; }
+  text-align: center;
+  padding: 2%; }
 
 .sabias {
   display: flex;
@@ -727,7 +760,9 @@ ul {
 
 .paginaAyuda {
   background-image: url(../fotitos/galaxia.jpeg);
-  background-size: cover; }
+  background-size: cover;
+  width: 100%;
+  height: 100%; }
 
 .h1Ayuda {
   font-family: "Racing Sans One";
@@ -737,6 +772,7 @@ ul {
   color: #4600C9;
   -webkit-text-stroke: 2px yellowgreen; }
 
+/* Wpp */
 .padreDivWpp {
   display: flex;
   justify-content: center; }
@@ -756,6 +792,21 @@ ul {
 .wpp {
   background-color: #00bb2d;
   border-radius: 100%; }
+
+/* Calmante */
+.padreVideo-responsive {
+  display: flex;
+  justify-content: center; }
+
+.video-responsive {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #672AFF;
+  border: 3px solid black;
+  border-radius: 10px;
+  margin: 1%;
+  padding: 2%; }
 
 * {
   padding: 0%;

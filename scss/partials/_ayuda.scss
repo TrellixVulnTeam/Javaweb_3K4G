@@ -9,6 +9,8 @@
 .paginaAyuda{
     background-image: url(../fotitos/galaxia.jpeg);
     background-size: cover;
+    width: $width1;
+    height: $heigth;
 }
 
 .h1Ayuda{
@@ -19,6 +21,8 @@
     color: #4600C9;
     -webkit-text-stroke: 2px yellowgreen;
 }
+
+/* Wpp */
 
 .padreDivWpp{
     @include centrar;
@@ -38,4 +42,19 @@
 .wpp{
     background-color: #00bb2d;
     border-radius: 100%;
+}
+
+/* Calmante */
+.padreVideo-responsive{
+    @include centrar;
+}
+.video-responsive {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #672AFF;
+    border: $borde1;
+    border-radius: 10px;
+    margin: $margingral;
+    padding: $paddinggral*2;
 }
