@@ -48,6 +48,11 @@
     @include reco;
     line-height: 2vw;
     margin-top: $margingral;
+    .listaA{
+        list-style-type: circle;
+        text-align: start;
+        font-size: 1vw;
+    }
 }
 
 /* Javatweets */

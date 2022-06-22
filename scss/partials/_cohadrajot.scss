@@ -83,7 +83,7 @@
 }
 .peu{
     @include start;
-    background-color: rgba($color: #FF8C6F, $alpha: 0.8);
+    background-color: rgba($color: #FF8C6F, $alpha: 0.4);
     border-radius: 10px;
     padding: $paddinggral $paddinggral*3;
     margin: $margingral;
@@ -110,7 +110,7 @@
     width: $width5;
 }
 .ulPeu{
-    background-color: rgba($color: #FF8C6F, $alpha: 0.8);
+    background-color: rgba($color: #FF8C6F, $alpha: 0.4);
     border-radius: 10px;
     padding-top: $paddinggral*2;
     padding-bottom: $paddinggral*2;
