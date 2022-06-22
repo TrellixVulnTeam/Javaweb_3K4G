@@ -65,6 +65,22 @@
     border: $borde1;
 }
 
+/* Sentimiento + Momento */
+.padreSentimiento{
+    @include centrar;
+    width: $width1;
+}
+.sentimiento{
+    @include centrar;
+    width: $width4;
+}
+.imgSent{
+    background-color: rgba($color: $color2, $alpha: 0.4);
+    border: $borde2;
+    border-radius: 20px;
+    box-shadow: 4px 4px 4px $color2;
+    padding: $paddinggral*2;
+}
 /* Semanalmente divertido y Sabias que*/
 .padreDivSemanal{
     @include centrar;
@@ -72,7 +88,7 @@
 }
 .divSemanal{
     @include centrar-columna2;
-    width: $width5;
+    width: $width5+5;
     background-color: $color2;
     box-shadow: 8px 8px 8px $color1;
     border: $borde1;
@@ -115,9 +131,10 @@
 .pSabias{
     @include main;
     font-size: 1.3vw;
-    width: $width3+15;
+    width: $width2;
     background-color: $color2;
     border-radius: 10px;
+    padding: $paddinggral;
 }
 
 .divDato{

@@ -22,6 +22,30 @@
     -webkit-text-stroke: 2px yellowgreen;
 }
 
+/* Fotos en botones */
+
+.padreJi{
+    @include centrar;
+    width: $width1;
+}
+.ji{
+    background-color: #672AFF;
+    border: $borde1;
+    border-radius: 10px;
+    padding: $paddinggral;
+    width: $width3;
+}
+.h3Mensajito{
+    font-size: 2vw;
+    color: black
+}
+.jijiji{
+    @include centrar;
+}
+.fotosJi{
+    border-radius: 10px;
+}
+
 /* Wpp */
 
 .padreDivWpp{
@@ -42,19 +66,4 @@
 .wpp{
     background-color: #00bb2d;
     border-radius: 100%;
-}
-
-/* Calmante */
-.padreVideo-responsive{
-    @include centrar;
-}
-.video-responsive {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-color: #672AFF;
-    border: $borde1;
-    border-radius: 10px;
-    margin: $margingral;
-    padding: $paddinggral*2;
 }

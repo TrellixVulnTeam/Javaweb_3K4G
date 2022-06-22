@@ -160,21 +160,11 @@
 
 /* Ayuda */
 
-.padreDivAyuda{
-    @include centrar;
-    width: $width1;
-    margin: $margingral*2 0px $margingral 0px;
-}
-.divAyuda{
-    width: $width2;
-    padding: $paddinggral;
-    background-color: $color3;
-    box-shadow: 4px 4px 4px $color2;
-    border: $borde1;
-    border-radius: 10px;
-}
 .h3Ayuda{
     font-size: 1.5vw;
+    margin-top: $margingral*3;
+    padding-top: $paddinggral*2;
+    border-top: #FF8C6F dotted 4px;
 }
 .tyBoton{
     display: flex;
@@ -195,6 +185,21 @@
     }
 }
 
-/* Hilos individuales */
-
+/* Motivacional */
 /* Gral */
+.padreMotivacional{
+    @include centrar;
+    width: $width1;
+    margin-top: $margingral*4;
+    margin-bottom: $margingral;
+}
+.motivacional{
+    @include centrar;
+    width: $width2;
+}
+.moti{
+    width: 55vw;
+    border: $borde1;
+    border-radius: 20px;
+    box-shadow: 4px 4px 4px $color5;
+}

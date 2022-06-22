@@ -425,22 +425,11 @@ footer {
       text-align: center; }
 
 /* Ayuda */
-.padreDivAyuda {
-  display: flex;
-  justify-content: center;
-  width: 100%;
-  margin: 2% 0px 1% 0px; }
-
-.divAyuda {
-  width: 90%;
-  padding: 1%;
-  background-color: #ffe58b;
-  box-shadow: 4px 4px 4px #ffcb6b;
-  border: 3px solid black;
-  border-radius: 10px; }
-
 .h3Ayuda {
-  font-size: 1.5vw; }
+  font-size: 1.5vw;
+  margin-top: 3%;
+  padding-top: 2%;
+  border-top: #FF8C6F dotted 4px; }
 
 .tyBoton {
   display: flex;
@@ -458,8 +447,26 @@ footer {
     .ayudas a:hover {
       color: red; }
 
-/* Hilos individuales */
+/* Motivacional */
 /* Gral */
+.padreMotivacional {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-top: 4%;
+  margin-bottom: 1%; }
+
+.motivacional {
+  display: flex;
+  justify-content: center;
+  width: 90%; }
+
+.moti {
+  width: 55vw;
+  border: 3px solid black;
+  border-radius: 20px;
+  box-shadow: 4px 4px 4px #FF8C6F; }
+
 /* Javacrono */
 .divInfos {
   display: flex;
@@ -527,6 +534,24 @@ footer {
   border-radius: 10px;
   border: 3px solid black; }
 
+/* Sentimiento + Momento */
+.padreSentimiento {
+  display: flex;
+  justify-content: center;
+  width: 100%; }
+
+.sentimiento {
+  display: flex;
+  justify-content: center;
+  width: 60%; }
+
+.imgSent {
+  background-color: rgba(255, 203, 107, 0.4);
+  border: 2px solid black;
+  border-radius: 20px;
+  box-shadow: 4px 4px 4px #ffcb6b;
+  padding: 2%; }
+
 /* Semanalmente divertido y Sabias que*/
 .padreDivSemanal {
   display: flex;
@@ -538,7 +563,7 @@ footer {
   justify-content: center;
   flex-direction: column;
   align-items: center;
-  width: 50%;
+  width: 55%;
   background-color: #ffcb6b;
   box-shadow: 8px 8px 8px #ffb14b;
   border: 3px solid black;
@@ -588,9 +613,10 @@ footer {
   text-align: center;
   justify-content: center;
   font-size: 1.3vw;
-  width: 85%;
+  width: 90%;
   background-color: #ffcb6b;
-  border-radius: 10px; }
+  border-radius: 10px;
+  padding: 1%; }
 
 .divDato {
   display: flex;
@@ -772,6 +798,30 @@ footer {
   color: #4600C9;
   -webkit-text-stroke: 2px yellowgreen; }
 
+/* Fotos en botones */
+.padreJi {
+  display: flex;
+  justify-content: center;
+  width: 100%; }
+
+.ji {
+  background-color: #672AFF;
+  border: 3px solid black;
+  border-radius: 10px;
+  padding: 1%;
+  width: 70%; }
+
+.h3Mensajito {
+  font-size: 2vw;
+  color: black; }
+
+.jijiji {
+  display: flex;
+  justify-content: center; }
+
+.fotosJi {
+  border-radius: 10px; }
+
 /* Wpp */
 .padreDivWpp {
   display: flex;
@@ -792,21 +842,6 @@ footer {
 .wpp {
   background-color: #00bb2d;
   border-radius: 100%; }
-
-/* Calmante */
-.padreVideo-responsive {
-  display: flex;
-  justify-content: center; }
-
-.video-responsive {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  background-color: #672AFF;
-  border: 3px solid black;
-  border-radius: 10px;
-  margin: 1%;
-  padding: 2%; }
 
 * {
   padding: 0%;
