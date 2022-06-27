@@ -35,6 +35,9 @@
 }
 .explicacionInicio{
     margin-bottom: $margingral;
+    text-align: start;
+    font-size: 1vw;
+    padding-left: $paddinggral;
 }
 .padreRecomendaciones{
     background-color: $color3;
@@ -48,6 +51,7 @@
     @include reco;
     line-height: 2vw;
     margin-top: $margingral;
+    padding-left: $paddinggral;
     .listaA{
         list-style-type: circle;
         text-align: start;
@@ -86,7 +90,10 @@
     margin: $margingral $margingral*2;
     padding: $paddinggral;
     width: 22vw;
-    height: 10vw;
+    height: 11vw;
+    p{
+        font-size: 1.2vw;
+    }
 }
 
 /* Informaciones */
@@ -165,4 +172,7 @@
     height: 5vw;
     margin-top: $margingral;
     padding: $paddinggral;
+    p{
+        font-size: 1vw;
+    }
 }

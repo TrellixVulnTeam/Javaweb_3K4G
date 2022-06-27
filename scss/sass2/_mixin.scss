@@ -5,6 +5,12 @@
     justify-content: center;
 }
 
+@mixin centrar-medio {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 @mixin centrar-columna {
     display: flex;
     justify-content: center;

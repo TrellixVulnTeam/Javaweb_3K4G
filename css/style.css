@@ -6,6 +6,7 @@
 nav {
   display: flex;
   justify-content: center;
+  align-items: center;
   background-color: #ffb14b;
   border-top: 2px solid black;
   border-bottom: 2px solid black;
@@ -19,7 +20,8 @@ nav {
   justify-content: space-around;
   align-items: center;
   list-style: none;
-  width: 90%; }
+  width: 90%;
+  margin-top: 1%; }
 
 .cos {
   width: 7vw;
@@ -89,7 +91,10 @@ nav {
   padding: 1%; }
 
 .explicacionInicio {
-  margin-bottom: 1%; }
+  margin-bottom: 1%;
+  text-align: start;
+  font-size: 1vw;
+  padding-left: 1%; }
 
 .padreRecomendaciones {
   background-color: #ffe58b;
@@ -104,7 +109,8 @@ nav {
   flex-direction: column;
   text-align: left;
   line-height: 2vw;
-  margin-top: 1%; }
+  margin-top: 1%;
+  padding-left: 1%; }
   .recomendaciones .listaA {
     list-style-type: circle;
     text-align: start;
@@ -145,7 +151,9 @@ nav {
   margin: 1% 2%;
   padding: 1%;
   width: 22vw;
-  height: 10vw; }
+  height: 11vw; }
+  .tweet p {
+    font-size: 1.2vw; }
 
 /* Informaciones */
 .infosPadre {
@@ -234,6 +242,8 @@ nav {
   height: 5vw;
   margin-top: 1%;
   padding: 1%; }
+  .dato p {
+    font-size: 1vw; }
 
 .elH1 {
   font-family: "Racing Sans One", cursive;
@@ -847,6 +857,128 @@ footer {
 .wpp {
   background-color: #00bb2d;
   border-radius: 100%; }
+
+/* 900 */
+@media only screen and (max-width: 900px) {
+  /* Nav */
+  .logo {
+    width: 12vw; }
+  .cos {
+    width: 10vw; }
+  /* Carrusel */
+  .fotintro img {
+    border: 3px solid black; }
+  /* Recomendaciones */
+  .explicacionInicio {
+    font-size: 1.5vw; }
+  .recomendaciones {
+    font-size: 1.5vw; }
+    .recomendaciones .listaA {
+      font-size: 1.5vw;
+      margin: 0.5%; }
+  /* Dato */
+  .dato p {
+    font-size: 1vw;
+    padding-top: 2%; } }
+
+/* 730 */
+@media only screen and (max-width: 730px) {
+  /* RESOLVER H2/*
+    /* Recomendaciones */
+  .divExplicacion {
+    box-shadow: 4px 4px 4px #ffb14b; }
+  .padreRecomendaciones {
+    box-shadow: 2px 2px 2px #ca7821; }
+  .recomendaciones {
+    line-height: 3vw; }
+  /* Tweet */
+  .javatweets {
+    box-shadow: 4px 4px 4px #ffb14b; }
+  .tweet {
+    box-shadow: 2px 2px 2px #ca7821;
+    border: 1px solid black; }
+  /* Infos */
+  .infos {
+    box-shadow: 4px 4px 4px #ffb14b; }
+  .infosExtra {
+    box-shadow: 2px 2px 2px #ca7821;
+    border: 2px solid black;
+    width: 70%; }
+  .cronomajane {
+    box-shadow: 3px 3px 3px #ca7821;
+    width: 70%; }
+  /* Dato */
+  .divDato {
+    box-shadow: 4px 4px 4px #ffb14b; }
+  .dato {
+    box-shadow: 2px 2px 2px #ca7821;
+    width: 90%;
+    padding-top: 4%; }
+    .dato p {
+      font-size: 1.2vw; }
+  .divFooter .pFooter {
+    font-size: 2vw;
+    margin-top: 4%;
+    padding-top: 4%; } }
+
+/* 545 */
+@media only screen and (max-width: 545px) {
+  /* Nav */
+  .logo {
+    width: 13vw;
+    padding-left: 1%; }
+  .cos {
+    width: 12vw;
+    margin-top: 2%;
+    border: 1px solid black; }
+  /* Carrusel */
+  .fotintro img {
+    border: 2px solid black; }
+  /* Recomendaciones */
+  .divExplicacion {
+    border: 2px solid black; }
+  .explicacionInicio {
+    font-size: 2vw; }
+  .padreRecomendaciones {
+    border: 1px solid black; }
+  .recomendaciones {
+    font-size: 2vw; }
+    .recomendaciones .listaA {
+      font-size: 1.7vw;
+      padding-left: 1%; }
+  /* Tweet */
+  .h5Tweet {
+    font-size: 2vw; }
+  .tweet {
+    height: 12vw; }
+    .tweet p {
+      font-size: 1.3vw; }
+  /* Infos */
+  .infoT {
+    font-size: 2vw; }
+  .info {
+    font-size: 1.5vw; }
+  /* Dato */
+  .divDato {
+    border: 2px solid black; }
+  .dato {
+    width: 100%;
+    padding-top: 6%;
+    border: 1px solid black; }
+    .dato p {
+      font-size: 1.4vw; } }
+
+/* 400 */
+@media only screen and (max-width: 400px) {
+  /* Nav */
+  .logo {
+    margin-left: 1%; }
+  .cos {
+    width: 13vw;
+    margin-top: 2%; }
+  /* Dato */
+  .dato p {
+    font-size: 1vw; } }
 
 * {
   padding: 0%;

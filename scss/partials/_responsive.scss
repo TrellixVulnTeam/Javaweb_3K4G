@@ -1,0 +1,181 @@
+@import "../variables/variables";
+@import "../sass2/extend";
+@import "../sass2/mixin";
+
+/* 900 */
+
+@media only screen and (max-width: 900px){
+    /* Nav */
+    .logo{
+        width: 12vw;
+    }
+    .cos{
+        width: 10vw;
+    }
+    /* Carrusel */
+    .fotintro{
+        img{
+            border: $borde1;
+        }
+    }
+    /* Recomendaciones */
+    .explicacionInicio{
+        font-size: 1.5vw;
+    }
+    .recomendaciones{
+        font-size: 1.5vw;
+        .listaA{
+            font-size: 1.5vw;
+            margin: $margingral/2;
+        }
+    }
+    /* Dato */
+    .dato{
+        p{
+            font-size: 1vw;
+            padding-top: $paddinggral*2;
+        }
+    }
+}
+
+/* 730 */
+
+@media only screen and (max-width: 730px){
+    /* RESOLVER H2/*
+    /* Recomendaciones */
+    .divExplicacion{
+        box-shadow: 4px 4px 4px $color1;
+    }
+    .padreRecomendaciones{
+        box-shadow: 2px 2px 2px $color4;
+    }
+    .recomendaciones{
+        line-height: 3vw;
+    }
+    /* Tweet */
+    .javatweets{
+        box-shadow: 4px 4px 4px $color1;
+    }
+    .tweet{
+        box-shadow: 2px 2px 2px $color4;
+        border: $borde3;
+    }
+    /* Infos */
+    .infos{
+        box-shadow: 4px 4px 4px $color1;
+    }
+    .infosExtra{
+        box-shadow: 2px 2px 2px $color4;
+        border: $borde2;
+        width: $width3;
+    }
+    .cronomajane{
+        box-shadow: 3px 3px 3px $color4;
+        width: $width3;
+    }
+    /* Dato */
+    .divDato{
+        box-shadow: 4px 4px 4px $color1;
+    }
+    .dato{
+        box-shadow: 2px 2px 2px $color4;
+        width: $width2;
+        padding-top: $paddinggral*4;
+        p{
+            font-size: 1.2vw;
+        }
+    }
+    .divFooter{
+        .pFooter{
+            font-size: 2vw;
+            margin-top: $margingral*4;
+            padding-top: $paddinggral*4;
+        }
+    }
+}
+
+/* 545 */
+
+@media only screen and (max-width: 545px){
+    /* Nav */
+    .logo{
+        width: 13vw;
+        padding-left: $paddinggral;
+    }
+    .cos{
+        width: 12vw;
+        margin-top: $margingral*2;
+        border: $borde3;
+    }
+    /* Carrusel */
+    .fotintro{
+        img{
+            border: $borde2;
+        }
+    }
+    /* Recomendaciones */
+    .divExplicacion{
+        border: $borde2;
+    }
+    .explicacionInicio{
+        font-size: 2vw;
+    }
+    .padreRecomendaciones{
+        border: $borde3;
+    }
+    .recomendaciones{
+        font-size: 2vw;
+        .listaA{
+            font-size: 1.7vw;
+            padding-left: $paddinggral;
+        }
+    }
+    /* Tweet */
+    .h5Tweet{
+        font-size: 2vw;
+    }
+    .tweet{
+        height: 12vw;
+        p{
+            font-size: 1.3vw;
+        }
+    }
+    /* Infos */
+    .infoT{
+        font-size: 2vw;
+    }
+    .info{
+        font-size: 1.5vw;
+    }
+    /* Dato */
+    .divDato{
+        border: $borde2;
+    }
+    .dato{
+        width: $width1;
+        padding-top: $paddinggral*6;
+        border: $borde3;
+        p{
+            font-size: 1.4vw;
+        }
+    }
+}
+
+/* 400 */
+
+@media only screen and (max-width: 400px){
+    /* Nav */
+    .logo{
+        margin-left: $margingral;
+    }
+    .cos{
+        width: 13vw;
+        margin-top: $margingral*2;
+    }
+    /* Dato */
+    .dato{
+        p{
+            font-size: 1vw;
+        }
+    }
+}

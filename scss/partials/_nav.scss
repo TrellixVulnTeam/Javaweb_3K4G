@@ -7,7 +7,7 @@
     width: 9vw;
 }
 nav{
-    @include centrar;
+    @include centrar-medio;
     background-color: $colornav;
     border-top: $borde2;
     border-bottom: $borde2;
@@ -21,6 +21,7 @@ nav{
     @include nav;
     list-style: none;
     width: $width2;
+    margin-top: $margingral;
 }
 .cos{
     width: 7vw;
