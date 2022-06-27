@@ -232,7 +232,8 @@ nav {
   border-radius: 10px;
   width: 80%;
   height: 5vw;
-  margin-top: 1%; }
+  margin-top: 1%;
+  padding: 1%; }
 
 .elH1 {
   font-family: "Racing Sans One", cursive;
