@@ -112,12 +112,11 @@
 .ulPeu{
     background-color: rgba($color: #FF8C6F, $alpha: 0.4);
     border-radius: 10px;
-    padding-top: $paddinggral*2;
-    padding-bottom: $paddinggral*2;
     .listaC{
         list-style-type: circle;
         text-align: start;
         font-size: 1vw;
+        padding: $paddinggral;
     }
 }
 

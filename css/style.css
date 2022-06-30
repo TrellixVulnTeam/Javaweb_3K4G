@@ -239,7 +239,6 @@ nav {
   border: 2px solid black;
   border-radius: 10px;
   width: 80%;
-  height: 5vw;
   margin-top: 1%;
   padding: 1%; }
   .dato p {
@@ -394,13 +393,12 @@ footer {
 
 .ulPeu {
   background-color: rgba(255, 140, 111, 0.4);
-  border-radius: 10px;
-  padding-top: 2%;
-  padding-bottom: 2%; }
+  border-radius: 10px; }
   .ulPeu .listaC {
     list-style-type: circle;
     text-align: start;
-    font-size: 1vw; }
+    font-size: 1vw;
+    padding: 1%; }
 
 /* Majane */
 .padreMajane {
@@ -906,7 +904,7 @@ footer {
     width: 70%; }
   .cronomajane {
     box-shadow: 3px 3px 3px #ca7821;
-    width: 70%; }
+    width: 90%; }
   /* Dato */
   .divDato {
     box-shadow: 4px 4px 4px #ffb14b; }
@@ -917,9 +915,7 @@ footer {
     .dato p {
       font-size: 1.2vw; }
   .divFooter .pFooter {
-    font-size: 2vw;
-    margin-top: 4%;
-    padding-top: 4%; } }
+    font-size: 2vw; } }
 
 /* 545 */
 @media only screen and (max-width: 545px) {
@@ -942,11 +938,14 @@ footer {
   .padreRecomendaciones {
     border: 1px solid black; }
   .recomendaciones {
-    font-size: 2vw; }
+    font-size: 2vw;
+    margin-left: 1%; }
     .recomendaciones .listaA {
       font-size: 1.7vw;
       padding-left: 1%; }
   /* Tweet */
+  .javatweets {
+    border: 2px solid black; }
   .h5Tweet {
     font-size: 2vw; }
   .tweet {
@@ -954,6 +953,10 @@ footer {
     .tweet p {
       font-size: 1.3vw; }
   /* Infos */
+  .infos {
+    border: 2px solid black; }
+  .infosExtra {
+    border: 1px solid black; }
   .infoT {
     font-size: 2vw; }
   .info {
@@ -963,10 +966,10 @@ footer {
     border: 2px solid black; }
   .dato {
     width: 100%;
-    padding-top: 6%;
     border: 1px solid black; }
     .dato p {
-      font-size: 1.4vw; } }
+      font-size: 1.4vw;
+      padding-top: 5%; } }
 
 /* 400 */
 @media only screen and (max-width: 400px) {

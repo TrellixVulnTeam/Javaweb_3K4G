@@ -71,7 +71,7 @@
     }
     .cronomajane{
         box-shadow: 3px 3px 3px $color4;
-        width: $width3;
+        width: $width2;
     }
     /* Dato */
     .divDato{
@@ -88,8 +88,6 @@
     .divFooter{
         .pFooter{
             font-size: 2vw;
-            margin-top: $margingral*4;
-            padding-top: $paddinggral*4;
         }
     }
 }
@@ -125,12 +123,16 @@
     }
     .recomendaciones{
         font-size: 2vw;
+        margin-left: $margingral;
         .listaA{
             font-size: 1.7vw;
             padding-left: $paddinggral;
         }
     }
     /* Tweet */
+    .javatweets{
+        border: $borde2;
+    }
     .h5Tweet{
         font-size: 2vw;
     }
@@ -141,6 +143,12 @@
         }
     }
     /* Infos */
+    .infos{
+        border: $borde2;
+    }
+    .infosExtra{
+        border: $borde3;
+    }
     .infoT{
         font-size: 2vw;
     }
@@ -153,10 +161,10 @@
     }
     .dato{
         width: $width1;
-        padding-top: $paddinggral*6;
         border: $borde3;
         p{
             font-size: 1.4vw;
+            padding-top: $paddinggral*5;
         }
     }
 }
