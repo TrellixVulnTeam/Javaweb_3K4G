@@ -136,23 +136,3 @@
     border-radius: 10px;
     padding: $paddinggral;
 }
-
-.divDato{
-    @include div-dato;
-    width: $width6;
-    box-shadow: 8px 8px 8px $color1;
-    border-radius: 15px;
-    background-color: $color2;
-    border: $borde1;
-    padding: $paddinggral;
-}
-.dato{
-    @include dato;
-    background-color: $color3;
-    box-shadow: 5px 5px 5px $color4;
-    border: $borde2;
-    border-radius: 10px;
-    width: $width3+10;
-    height: 5vw;
-    margin-top: $margingral;
-}

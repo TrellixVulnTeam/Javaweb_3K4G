@@ -31,9 +31,8 @@
     }
     /* Dato */
     .dato{
-        p{
+        .pDato{
             font-size: 1vw;
-            padding-top: $paddinggral*2;
         }
     }
 }
@@ -80,8 +79,7 @@
     .dato{
         box-shadow: 2px 2px 2px $color4;
         width: $width2;
-        padding-top: $paddinggral*4;
-        p{
+        .pDato{
             font-size: 1.2vw;
         }
     }
@@ -161,10 +159,8 @@
     }
     .dato{
         width: $width1;
-        border: $borde3;
-        p{
+        .pDato{
             font-size: 1.4vw;
-            padding-top: $paddinggral*5;
         }
     }
 }
@@ -182,7 +178,7 @@
     }
     /* Dato */
     .dato{
-        p{
+        .pDato{
             font-size: 1vw;
         }
     }

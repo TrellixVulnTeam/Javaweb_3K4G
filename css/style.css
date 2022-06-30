@@ -100,7 +100,7 @@ nav {
   background-color: #ffe58b;
   box-shadow: 5px 5px 5px #ca7821;
   border: 2px solid black;
-  border-radius: 5px;
+  border-radius: 10px;
   padding: 0px 1% 1% 1%;
   width: 100%; }
 
@@ -234,15 +234,19 @@ nav {
   display: flex;
   justify-content: center;
   align-items: center;
+  text-align: center;
   background-color: #ffe58b;
   box-shadow: 5px 5px 5px #ca7821;
-  border: 2px solid black;
   border-radius: 10px;
-  width: 80%;
-  margin-top: 1%;
-  padding: 1%; }
-  .dato p {
-    font-size: 1vw; }
+  width: 95%;
+  margin-top: 1%; }
+  .dato .pDato {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5vw;
+    margin: 0.5%;
+    padding: 3%; }
 
 .elH1 {
   font-family: "Racing Sans One", cursive;
@@ -631,29 +635,6 @@ footer {
   border-radius: 10px;
   padding: 1%; }
 
-.divDato {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: 40%;
-  box-shadow: 8px 8px 8px #ffb14b;
-  border-radius: 15px;
-  background-color: #ffcb6b;
-  border: 3px solid black;
-  padding: 1%; }
-
-.dato {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: #ffe58b;
-  box-shadow: 5px 5px 5px #ca7821;
-  border: 2px solid black;
-  border-radius: 10px;
-  width: 80%;
-  height: 5vw;
-  margin-top: 1%; }
-
 /* Formato Grid */
 .padreGridGral {
   display: flex;
@@ -875,9 +856,8 @@ footer {
       font-size: 1.5vw;
       margin: 0.5%; }
   /* Dato */
-  .dato p {
-    font-size: 1vw;
-    padding-top: 2%; } }
+  .dato .pDato {
+    font-size: 1vw; } }
 
 /* 730 */
 @media only screen and (max-width: 730px) {
@@ -910,9 +890,8 @@ footer {
     box-shadow: 4px 4px 4px #ffb14b; }
   .dato {
     box-shadow: 2px 2px 2px #ca7821;
-    width: 90%;
-    padding-top: 4%; }
-    .dato p {
+    width: 90%; }
+    .dato .pDato {
       font-size: 1.2vw; }
   .divFooter .pFooter {
     font-size: 2vw; } }
@@ -965,11 +944,9 @@ footer {
   .divDato {
     border: 2px solid black; }
   .dato {
-    width: 100%;
-    border: 1px solid black; }
-    .dato p {
-      font-size: 1.4vw;
-      padding-top: 5%; } }
+    width: 100%; }
+    .dato .pDato {
+      font-size: 1.4vw; } }
 
 /* 400 */
 @media only screen and (max-width: 400px) {
@@ -980,7 +957,7 @@ footer {
     width: 13vw;
     margin-top: 2%; }
   /* Dato */
-  .dato p {
+  .dato .pDato {
     font-size: 1vw; } }
 
 * {
