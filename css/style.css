@@ -912,13 +912,15 @@ footer {
   /* Recomendaciones */
   .divExplicacion {
     border: 2px solid black; }
+  .h2Exp {
+    margin: 5px 0px 10px 5px; }
   .explicacionInicio {
     font-size: 2vw; }
   .padreRecomendaciones {
     border: 1px solid black; }
   .recomendaciones {
     font-size: 2vw;
-    margin-left: 1%; }
+    margin-left: 2%; }
     .recomendaciones .listaA {
       font-size: 1.7vw;
       padding-left: 1%; }
@@ -946,7 +948,7 @@ footer {
   .dato {
     width: 100%; }
     .dato .pDato {
-      font-size: 1.4vw; } }
+      font-size: 1.8vw; } }
 
 /* 400 */
 @media only screen and (max-width: 400px) {

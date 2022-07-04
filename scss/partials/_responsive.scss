@@ -113,6 +113,9 @@
     .divExplicacion{
         border: $borde2;
     }
+    .h2Exp{
+        margin: 5px 0px 10px 5px;
+    }
     .explicacionInicio{
         font-size: 2vw;
     }
@@ -121,7 +124,7 @@
     }
     .recomendaciones{
         font-size: 2vw;
-        margin-left: $margingral;
+        margin-left: $margingral*2;
         .listaA{
             font-size: 1.7vw;
             padding-left: $paddinggral;
@@ -160,7 +163,7 @@
     .dato{
         width: $width1;
         .pDato{
-            font-size: 1.4vw;
+            font-size: 1.8vw;
         }
     }
 }
