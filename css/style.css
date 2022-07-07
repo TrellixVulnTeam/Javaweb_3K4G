@@ -238,6 +238,7 @@ nav {
   background-color: #ffe58b;
   box-shadow: 5px 5px 5px #ca7821;
   border-radius: 10px;
+  border: 1px solid black;
   width: 95%;
   margin-top: 1%; }
   .dato .pDato {
@@ -847,6 +848,11 @@ footer {
   /* Carrusel */
   .fotintro img {
     border: 3px solid black; }
+  /* H2 */
+  .h2Gral {
+    font-size: 3vw !important; }
+  .h2PeulaSemana {
+    font-size: 3.5vw !important; }
   /* Recomendaciones */
   .explicacionInicio {
     font-size: 1.5vw; }
@@ -857,7 +863,30 @@ footer {
       margin: 0.5%; }
   /* Dato */
   .dato .pDato {
-    font-size: 1vw; } }
+    font-size: 1vw; }
+  /* COHADRAJOT */
+  /* Hide */
+  .fotos1 {
+    display: none !important; }
+  .fotos2 {
+    display: none !important; }
+  /* Peula */
+  .ulPeu {
+    padding-top: 1%;
+    padding-bottom: 1%; }
+  .listaC {
+    font-size: 1.7vw !important; }
+  /* Majane */
+  .progresoIndicadores .indicadores div {
+    height: 4vw; }
+  /* Ayuda */
+  .h3Ayuda {
+    font-size: 2.2vw; }
+  /* Motivacional */
+  .padreMotivacional {
+    margin-top: 2%; }
+  .moti {
+    width: 85vw; } }
 
 /* 730 */
 @media only screen and (max-width: 730px) {

@@ -18,6 +18,13 @@
             border: $borde1;
         }
     }
+    /* H2 */
+    .h2Gral{
+        font-size: 3vw !important;
+    }
+    .h2PeulaSemana{
+        font-size: 3.5vw !important;
+    }
     /* Recomendaciones */
     .explicacionInicio{
         font-size: 1.5vw;
@@ -34,6 +41,41 @@
         .pDato{
             font-size: 1vw;
         }
+    }
+    /* COHADRAJOT */
+    /* Hide */
+    .fotos1{
+        display: none !important;
+    }
+    .fotos2{
+        display: none !important;
+    }
+    /* Peula */
+    .ulPeu{
+        padding-top: $paddinggral;
+        padding-bottom: $paddinggral;
+    }
+    .listaC{
+        font-size: 1.7vw !important;
+    }
+    /* Majane */
+    .progresoIndicadores{
+        .indicadores{
+            div{
+                height: 4vw;
+            }
+        }
+    }
+    /* Ayuda */
+    .h3Ayuda{
+        font-size: 2.2vw;
+    }
+    /* Motivacional */
+    .padreMotivacional{
+        margin-top: $margingral*2;
+    }
+    .moti{
+        width: 85vw;
     }
 }
 
