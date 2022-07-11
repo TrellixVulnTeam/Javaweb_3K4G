@@ -55,6 +55,9 @@
         padding-top: $paddinggral;
         padding-bottom: $paddinggral;
     }
+    .h3Cohadraja{
+        font-size: 3vw;
+    }
     .listaC{
         font-size: 1.7vw !important;
     }
@@ -82,7 +85,6 @@
 /* 730 */
 
 @media only screen and (max-width: 730px){
-    /* RESOLVER H2/*
     /* Recomendaciones */
     .divExplicacion{
         box-shadow: 4px 4px 4px $color1;
@@ -129,6 +131,18 @@
         .pFooter{
             font-size: 2vw;
         }
+    }
+    .listaC{
+        font-size: 2vw !important;
+    }
+}
+
+/* 750 */
+
+@media only screen and (max-width: 750px){
+    /* COHADRAJOT */
+    .indicador{
+        font-size: 1.8vw;
     }
 }
 

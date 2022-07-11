@@ -361,7 +361,8 @@ footer {
 
 .h3Cohadraja {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  padding: 1%; }
+  padding: 1%;
+  font-size: 2vw; }
 
 .resumenPeu {
   display: flex;
@@ -874,6 +875,8 @@ footer {
   .ulPeu {
     padding-top: 1%;
     padding-bottom: 1%; }
+  .h3Cohadraja {
+    font-size: 3vw; }
   .listaC {
     font-size: 1.7vw !important; }
   /* Majane */
@@ -890,8 +893,7 @@ footer {
 
 /* 730 */
 @media only screen and (max-width: 730px) {
-  /* RESOLVER H2/*
-    /* Recomendaciones */
+  /* Recomendaciones */
   .divExplicacion {
     box-shadow: 4px 4px 4px #ffb14b; }
   .padreRecomendaciones {
@@ -923,7 +925,15 @@ footer {
     .dato .pDato {
       font-size: 1.2vw; }
   .divFooter .pFooter {
-    font-size: 2vw; } }
+    font-size: 2vw; }
+  .listaC {
+    font-size: 2vw !important; } }
+
+/* 750 */
+@media only screen and (max-width: 750px) {
+  /* COHADRAJOT */
+  .indicador {
+    font-size: 1.8vw; } }
 
 /* 545 */
 @media only screen and (max-width: 545px) {
