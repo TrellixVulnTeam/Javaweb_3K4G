@@ -891,6 +891,12 @@ footer {
   .moti {
     width: 85vw; } }
 
+/* 750 */
+@media only screen and (max-width: 750px) {
+  /* COHADRAJOT */
+  .indicador {
+    font-size: 1.8vw; } }
+
 /* 730 */
 @media only screen and (max-width: 730px) {
   /* Recomendaciones */
@@ -929,12 +935,6 @@ footer {
   .listaC {
     font-size: 2vw !important; } }
 
-/* 750 */
-@media only screen and (max-width: 750px) {
-  /* COHADRAJOT */
-  .indicador {
-    font-size: 1.8vw; } }
-
 /* 545 */
 @media only screen and (max-width: 545px) {
   /* Nav */
@@ -969,9 +969,9 @@ footer {
   .h5Tweet {
     font-size: 2vw; }
   .tweet {
-    height: 12vw; }
+    height: 16vw; }
     .tweet p {
-      font-size: 1.3vw; }
+      font-size: 1.5vw; }
   /* Infos */
   .infos {
     border: 2px solid black; }
@@ -987,7 +987,69 @@ footer {
   .dato {
     width: 100%; }
     .dato .pDato {
-      font-size: 1.8vw; } }
+      font-size: 1.8vw; }
+  /* COHADRAJOT */
+  /* Peula de la semana */
+  .h4Peu {
+    font-size: 4vw; }
+  .pPeu {
+    font-size: 3vw;
+    padding: 1%; }
+  .ulJuegos .listaP {
+    font-size: 3vw; }
+  /* Majane */
+  .indicador {
+    font-size: 2vw;
+    padding: 1%; }
+  /* Ayuda */
+  .h3Ayuda {
+    font-size: 3.5vw; }
+  .pAyuda {
+    font-size: 3vw; }
+  /* JAVA */
+  /* Recursera */
+  .divRecursera {
+    border: 2px solid black;
+    box-shadow: 4px 4px 4px #ffb14b; }
+  .ps {
+    font-size: 2.5vw; }
+  .divLado a {
+    font-size: 2.8vw; }
+  /* Figuritas */
+  .divH2 {
+    border: 2px solid black; }
+  .imgGrid {
+    width: 3vw !important; }
+  .divGrid {
+    border: 1px solid black;
+    padding-top: 15%; }
+  .divGridA .h4Categoria {
+    display: none !important; }
+  /* Sentimiento */
+  .imgSent {
+    width: 90vw; }
+  /* Sabías que */
+  .divSemanal {
+    border: 2px solid black; }
+  .divSeparar a {
+    font-size: 3vw; }
+  .padreDivSabias {
+    width: 90%; }
+  .h3Sabias {
+    font-size: 2vw; }
+  .sabias {
+    padding: 2%; }
+  .pSabias {
+    font-size: 2vw; }
+  /* NO TOCAR */
+  .ji {
+    border: 2px solid black; }
+  .fotosJi {
+    width: 90%; }
+  .divWpp {
+    border: 2px solid black; }
+  .wpp {
+    width: 10vw; } }
 
 /* 400 */
 @media only screen and (max-width: 400px) {
